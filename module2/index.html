@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Turing</title>
+</head>
+<body>
+    <header>
+        <table> <!-- Tables can be used to apply layout for our websites. Back in the 1990s that was the case.
+        Our table seems a bit stuffed, to fix that we can look up to MDN Dev documents. 
+        Since cellspacing attribute is deprecated, we can create space between two cells
+        by creating a style-rule in our css file, and to do that first we must target/select
+        our element and then apply the border-spacing property to it (table element). -->
+            <td>
+                <img src="images/alan-turing.jpg" alt="photo of alan turing" height="%100" width="120px">
+            </td>
+
+            <td>
+                <h1>Alan Turing</h1>
+                <em>
+                    <dl>
+                        <dt>
+                            Department of <a href="#">Computer Science</a>
+                        </dt>
+                        <dt>
+                            Department of <a href="#">Cryptoanalysis</a>
+                        </dt>
+                        <dt>
+                            <a href="#">University of Cambridge</a>
+                        </dt>
+                        <dt>
+                            Cheshire, England
+                        </dt>
+                    </dl>
+                </em>
+
+            </td>
+        </table>
+        
+        
+    </header>
+    
+    <main>
+        <p>
+            Alan Mathison Turing OBE FRS (/ˈtjʊərɪŋ/; 23 June 1912 – 7 June 1954) was an English mathematician, computer scientist, logician, cryptanalyst, philosopher, and theoretical biologist.[6] Turing was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer.[7][8][9] He is widely considered to be the father of theoretical computer science and artificial intelligence.[10]
+        </p>
+        <p>
+            <a href="contact.html">contact</a>
+        </p>
+        
+        <hr>
+        
+        <h2>
+            Career & Research
+        </h2>
+
+        <ul>
+            <li>
+                Cryptoanalysis
+            </li>
+            <li>
+                Bombe
+            </li>
+            <li>
+                Hut 8
+            </li>
+            <li>
+                Turingery
+            </li>
+        </ul>
+        <hr>
+        <!-- MODULE2 START -->
+        
+        
+        <h3>
+            Work Experience
+        </h3>
+        <!-- HTML TABLES -->
+        <table>
+            <!-- Table element mirrors the html document structure
+            so, it has body, heading elements inside of it.
+            For further understanding look up => MDN Docs. -->
+            
+            <!-- Most browsers know how table heading element works, 
+            so using only the th element without thead, tbody, tfoot elements 
+            produces the same results but 
+            in order to style it differently, we must separate our elements.
+            Styling the tables with HTML is possible but it's not recommended,
+            since CSS is used for styling and HTML is used for structure, 
+            its best to keep styling gigs to CSS. -->
+            <thead> <!-- Table Heading, it's formatted as strong by default. -->
+                <tr>
+                    <th>Dates</th> <!-- Belongs to column 1 -->
+                    <th>Work</th> <!-- Belongs to column 2 -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr> <!-- table-row -->
+                    <td>
+                        2019-2020
+                    </td> <!-- table data -->
+                    <td> <!-- For every data present in the table, table element creates a column. -->
+                        Lorem Text
+                    </td>
+                </tr>
+                <tr> <!-- table-row -->
+                    <td> <!-- Column 1 -- DATES -->
+                       2018-2017 
+                    </td> <!-- table data -->
+                    <td> <!-- Column 2 -- WORK -->
+                        Lorem Text
+                    </td>
+                </tr>           
+                <tr> <!-- table-row -->
+                    <td>
+                        2016
+                    </td> <!-- table data -->
+                    <td>
+                        Lorem Text
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+
+        <!-- Module2 Tables Challenge Start -->
+        <h3>
+            Skills
+        </h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Skill Name</th>
+                    <th>Familiarity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Skill 1
+                    </td>
+                    <td>
+                        Familiarity ⭐⭐⭐⭐⭐
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Skill 2
+                    </td>
+                    <td>
+                        Familiarity 2 ⭐⭐
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Module2 Tables Challenge End -->
+        
+    </main>
+    <hr>
+    <footer>
+        <table> <!-- td can be used solo without tr -->
+            <td>
+                <a href="#contact.html">Contact</a>
+            </td>
+            <td>
+                <a href="#">Blog</a>
+            </td>
+            <td>
+                <a href="#">Misc.</a>
+            </td>
+        </table>
+    </footer>
+
+    <!-- MODULE2 END -->
+</body>
+</html>
