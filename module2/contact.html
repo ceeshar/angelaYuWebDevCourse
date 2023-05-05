@@ -18,16 +18,20 @@
         </p>
     </main>
     <section class="contact-form">
-        <form action="">
-            <label for="">
+        <form action="mailto:info@turing.com" method="post" enctype="text/plain">
+            <label>
                 Your Name:
             </label>
             <!-- There are lots of input types, once again for reference please look up to MDN -->
-            <input type="text"><br>
+            <input type="text" placeholder="John Doe" name="yourName"><br>
             <label>
-                Do You Want to End the World?
+                Your Email:
             </label>
-            <input type="checkbox" name="" id="">
+            <input type="email" placeholder="myemail@domain.com" name="yourMail"><br>
+            <label>
+                Your Message:
+            </label><br>
+            <textarea cols="30" rows="10" placeholder="Message..." name="yourMessage"></textarea><br>
             <input type="submit">
         </form>
 

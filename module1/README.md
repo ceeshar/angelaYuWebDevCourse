@@ -15,8 +15,8 @@
         <li>HTML Boilerplate</li>
         <li>How to Structure Text in HTML</li>
         <li>HTML Lists</li>
-        <li>HTML Image Elements</li>
-        <li>HTML Links and Anchor Tags</li>
+        <li>HTML Image Element</li>
+        <li>HTML Anchor Element</li>
     </ol>
 </p>
 
@@ -77,13 +77,52 @@
     </ol>
 
 <h2>
-HTML Lists
+    HTML Lists
 </h2>
 
 <p>
-    Lists are the another way of structuring text in HTML documents.
-
-
+    Lists are another way of structuring textual content in HTML documents. They are used to group related pieces of information together and present them in a structured way on a webpage.
+    There are three types of HTML lists:
+        <ol>
+            <li> 
+                Ordered Lists: An ordered list is used when you want to display items in a numbered format. It is created using the "ol" (ordered list) tag and each item is enclosed within "li" (list item) tags.
+            </li>
+            <li>
+                Unordered Lists: An unordered list is used when you want to display items in bullet format. It is created using the "ul" (unordered list) tag and each item is enclosed within "li" tags.
+            </li>
+            <li>
+                Definition Lists: A definition list is a little bit different than other two lists. It is used whhen you want to display terms and their definitions. 
+                It is created using the "dl" (definition list) tag and each term is enclosed within "dt" (data term) tags and each definition is enclosed within "dd" (data definition) tags. 
+        </ol>
 </p>
 
-https://www.cs.cornell.edu/home/kleinber/
+
+<h2> 
+    Image Element
+</h2>
+
+<p>
+    The "<img>" element in HTML is used to embed images into a webpage. It is a self-closing tag and does not require a closing tag. 
+    The image element has a required attribute called "src" which specifies the URL or file path of the image file that should be displayed.
+    The "alt" attribute is also important for accessibility purposes, as it provides a textual description of the image for visually impaired users.
+    The "title" attribute provides a tooltip text when the user hovers over the image.
+</p>
+
+<h2>
+    Anchor Element
+</h2>
+
+<p>
+    The anchor element is an HTML tag used to create Hyperlinks to other webpages or to specific parts of the same webpage. It creates a clickable link that takes the used to the destination URL when clicked. The "href" attribute is a must as it specifies the destination URL. "href attribute can also be used to create a link to a specific part of the same webpage by specifying an anchor tag, or "#", followed by the "id" attribute of the element that the link should navigate to.
+    There are couple of useful attributes to consider using with the anchor tag.
+    <ol>
+        <li>
+            "target" : specifies where to open the linked document. The "target" attribute can have several values, which specify where the linked document should be opened. Here are the most common values, "_self" the default value. Linked document will open in the same window/tab that the link was clicked on.
+            "_blank" the linked document will open in a new window or tab.
+            "_parent" the linked document will open in the parent frame of the current frame.
+            "_top" the linked document will replace any framesets that may be loaded and will open in the full body of the current window or tab.
+        </li> 
+</p>
+
+
+<p> Inspiration website used in the module: https://www.cs.cornell.edu/home/kleinber/ </p>
