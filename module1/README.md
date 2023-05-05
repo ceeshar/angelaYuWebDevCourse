@@ -122,6 +122,13 @@
             "_parent" the linked document will open in the parent frame of the current frame.
             "_top" the linked document will replace any framesets that may be loaded and will open in the full body of the current window or tab.
         </li> 
+        <li>
+            "title" : provides additional information about the link when the user hovers over it.
+        </li>
+        <li>
+            "download" : specifies that the target will be downloaded when the user clicks on the link instead of navigating to it.
+        </li>
+    </ol>
 </p>
 
 
