@@ -26,5 +26,32 @@
 </h2>
 
 <p>
+    An HTML form is used to collect user input. To create an HTML form, you use the "<form>" tag, which specifies the action that the server should take upon submission of the form data. The "action" attribute of the "form" tag specifies the URL of the server-side script that will process the form data.
+</p>
 
+<h3>
+    Within the "form" tag, you can include different form elements, such as:
+    <ul>
+        <li>
+            "input": the "input" tag defines a text input field where users can enter text or numeric data. You can specify the "type" attribute to define the type of input, such as text, password, email, or number. (input types: text, radio, checkbox, submit, button)
+        </li>
+        <li>
+            "textarea": defines a multi-line text input field where users can enter large amounts of text.
+        </li>
+        <li>
+            "select": defines a dropdown menu where users can select one or more options from a list.
+        </li>
+        <li>
+            "radio", "checkbox" tags defines radio buttons and checkboxes, respectively, which allow users to select one or more options from a list.
+        </li>
+        <li>
+            "button": defines a clickable button that can be used to submit the dorm or perform other actions with the help of JS, which is a client-side scripting language that runs in the user's web browser.
+        </li>
+        <li>
+            "label": defines a label for form elements. It's useful because of the accessibility issues and we can use labels "for" attribute to bind the form's "input" element with itself, so when the label is clicked, input element is also clicked. (label's "for" attribute's value must be same with the "input" element's ID attribute.)
+    </ul>
+</h3>
+
+<p>
+    When the user submits the form, the browser sends the form data to the server which can then process the data and respond with a new web page or other content based on the user's input. The server-side script can access the form data using a programming language like JS, and use it to perform various actions, such as updating a database, sending an email, or displaying a confirmation message to the user.
 </p>

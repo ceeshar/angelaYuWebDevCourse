@@ -101,3 +101,19 @@ Inline CSS
 <p>
     Selectors are patterns used to select and style HTML elements on a webpage. Selectors are used to identify and target specific elements based on their element type, attributes, class, and/or ID. There are: Attribute selectors, class selectors, ID selectors, Type selectors, and the Universal selector.
 </p>
+
+<h2>
+    Classes vs ID's
+</h2>
+
+<p>
+    In CSS, both classes and IDs are used to apply styles to HTML elements. However, they have different purposes and usage scenarios. 
+    <ul>
+        <li>
+            <strong>IDs</strong>: An ID is a unique identifier for an HTML element. You can use an ID to select and apply styles to a specific element on a page. IDs are defined using the "id" attribute in HTML and preceded by a "#" symbol in CSS. An element can have only one ID, and an ID can be used only once on a page. Try to use as little IDs as possible for styling.
+        </li>
+        <li>
+            <strong>Classes</strong>: A class is a way to group elements that share common styles. You can apply the same class to multiple elements, and each element can have multiple classes. Classes are defined using the "class" attribute in HTML and preceded by a "." symbol in CSS.
+        </li>
+    </ul>
+</p>
